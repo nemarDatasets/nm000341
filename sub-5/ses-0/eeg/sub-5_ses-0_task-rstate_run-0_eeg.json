@@ -1,0 +1,33 @@
+{
+	"TaskName": "rstate",
+	"Manufacturer": "g.tec",
+	"PowerLineFrequency": 50.0,
+	"SamplingFrequency": 512.0,
+	"SoftwareFilters": "n/a",
+	"RecordingDuration": 869.998046875,
+	"RecordingType": "continuous",
+	"EEGReference": "right earlobe",
+	"EEGGround": "AFz",
+	"EEGPlacementScheme": "10-20 system",
+	"EEGChannelCount": 16,
+	"EOGChannelCount": 0,
+	"ECGChannelCount": 0,
+	"EMGChannelCount": 0,
+	"TriggerChannelCount": 0,
+	"ManufacturersModelName": "g.USBamp",
+	"SoftwareVersions": "OpenViBE",
+	"CapManufacturer": "EasyCap",
+	"CapManufacturersModelName": "EC20",
+	"HardwareFilters": {
+		"HardwareFilter": "no digital filter"
+	},
+	"TaskDescription": "focus on the marker and to listen to the music that was diffused during the experiment (Bach Invention from one to ten on harpsichord). Trial duration: 60.0s.",
+	"Instructions": "Subjects were asked to focus on the marker and to listen to the music that was diffused during the experiment",
+	"InstitutionName": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+	"InstitutionAddress": "GIPSA-lab, 11 rue des Math\u00e9matiques, Grenoble Campus BP46, F-38402, France",
+	"InstitutionalDepartmentName": "n/a",
+	"SubjectArtefactDescription": "n/a",
+	"DeviceSerialNumber": "n/a",
+	"Description": "This dataset contains electroencephalographic recordings of 12 subjects listening to music with and without a passive head-mounted display",
+	"MISCChannelCount": 0
+}
