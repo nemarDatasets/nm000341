@@ -1,39 +1,39 @@
 {
-	"Name": "Cattan2019-PHMD",
-	"BIDSVersion": "1.9.0",
-	"HEDVersion": "8.4.0",
-	"DatasetType": "derivative",
-	"License": "CC-BY-4.0",
-	"Authors": [
-		"G. Cattan",
-		"P. L. C. Rodrigues",
-		"M. Congedo"
-	],
-	"HowToAcknowledge": "Python code for manipulating the data is available at https://github.com/plcrodrigues/py.PHMDML.EEG.2017-GIPSA",
-	"ReferencesAndLinks": [
-		"https://doi.org/10.5281/zenodo.2617084",
-		"10.2312/vriphys.20181064"
-	],
-	"DatasetDOI": "doi:10.5281/zenodo.2617084",
-	"GeneratedBy": [
-		{
-			"CodeURL": "https://github.com/NeuroTechX/moabb",
-			"Name": "moabb",
-			"Description": "Mother of All BCI Benchmarks",
-			"Version": "1.5.0"
-		}
-	],
-	"SourceDatasets": [
-		{
-			"DOI": "10.5281/zenodo.2617084",
-			"URL": "https://doi.org/10.5281/zenodo.2617084"
-		}
-	],
-	"Keywords": [
-		"Electroencephalography (EEG)",
-		"Virtual Reality (VR)",
-		"Passive Head-Mounted Display (PHMD)",
-		"experiment"
-	],
-	"PublicationYear": 2019
+  "Name": "Cattan et al. 2019 — Passive Head-Mounted Display (PHMD) BCI dataset",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "G. Cattan",
+    "P. L. C. Rodrigues",
+    "M. Congedo"
+  ],
+  "HowToAcknowledge": "Python code for manipulating the data is available at https://github.com/plcrodrigues/py.PHMDML.EEG.2017-GIPSA",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.5281/zenodo.2617084",
+    "10.2312/vriphys.20181064"
+  ],
+  "DatasetDOI": "doi:10.5281/zenodo.2617084",
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.5281/zenodo.2617084",
+      "URL": "https://doi.org/10.5281/zenodo.2617084"
+    }
+  ],
+  "Keywords": [
+    "Electroencephalography (EEG)",
+    "Virtual Reality (VR)",
+    "Passive Head-Mounted Display (PHMD)",
+    "experiment"
+  ],
+  "PublicationYear": 2019
 }
