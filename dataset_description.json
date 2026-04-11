@@ -1,5 +1,5 @@
 {
-  "Name": "Cattan et al. 2019 — Passive Head-Mounted Display (PHMD) BCI dataset",
+  "Name": "Cattan, Rodrigues & Congedo 2019 — Passive Head-Mounted Display Music-Listening EEG dataset (PHMD)",
   "BIDSVersion": "1.9.0",
   "HEDVersion": "8.4.0",
   "DatasetType": "derivative",
