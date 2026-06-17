@@ -14,7 +14,7 @@
     "https://doi.org/10.5281/zenodo.2617084",
     "10.2312/vriphys.20181064"
   ],
-  "DatasetDOI": "doi:10.5281/zenodo.2617084",
+  "DatasetDOI": "10.82901/nemar.nm000341",
   "GeneratedBy": [
     {
       "CodeURL": "https://github.com/NeuroTechX/moabb",
@@ -27,6 +27,9 @@
     {
       "DOI": "10.5281/zenodo.2617084",
       "URL": "https://doi.org/10.5281/zenodo.2617084"
+    },
+    {
+      "DOI": "doi:10.5281/zenodo.2617084"
     }
   ],
   "Keywords": [
