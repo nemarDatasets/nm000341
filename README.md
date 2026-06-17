@@ -1,0 +1,129 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000341-blue)](https://doi.org/10.82901/nemar.nm000341)
+
+Cattan2019-PHMD
+===============
+
+Passive Head Mounted Display with Music Listening dataset [1]_.
+
+Dataset Overview
+----------------
+  Code: Cattan2019-PHMD
+  Paradigm: rstate
+  DOI: 10.5281/zenodo.2617084
+  Subjects: 12
+  Sessions per subject: 1
+  Events: off=1, on=2
+  Trial interval: [0, 1] s
+  File format: mat and csv
+
+Acquisition
+-----------
+  Sampling rate: 512.0 Hz
+  Number of channels: 16
+  Channel types: eeg=16
+  Channel names: Cz, Fc5, Fc6, Fp1, Fp2, Fz, O1, O2, Oz, P3, P4, P7, P8, Pz, T7, T8
+  Montage: standard_1020
+  Hardware: g.USBamp
+  Software: OpenViBE
+  Reference: right earlobe
+  Ground: AFz
+  Sensor type: wet
+  Line frequency: 50.0 Hz
+  Online filters: no digital filter
+  Cap manufacturer: EasyCap
+  Cap model: EC20
+  Electrode type: wet
+
+Participants
+------------
+  Number of subjects: 12
+  Health status: healthy
+  Age: mean=26.25, std=2.63
+  Gender distribution: male=9, female=3
+  Species: human
+
+Experimental Protocol
+---------------------
+  Paradigm: rstate
+  Number of classes: 2
+  Class labels: off, on
+  Trial duration: 60.0 s
+  Study design: focus on the marker and to listen to the music that was diffused during the experiment (Bach Invention from one to ten on harpsichord).
+  Feedback type: none
+  Stimulus type: visual fixation marker
+  Stimulus modalities: visual, auditory
+  Primary modality: auditory
+  Training/test split: False
+  Instructions: Subjects were asked to focus on the marker and to listen to the music that was diffused during the experiment
+
+HED Event Annotations
+---------------------
+  Schema: HED 8.4.0 | Browse: https://www.hedtags.org/hed-schema-browser
+
+  off
+    ├─ Experiment-structure
+    └─ Rest
+
+  on
+    ├─ Experiment-structure
+    └─ Rest
+
+Data Structure
+--------------
+  Blocks per session: 10
+  Block duration: 60.0 s
+  Trials context: 5 blocks with smartphone switched-off and 5 blocks with smartphone switched-on, randomized sequence
+
+Preprocessing
+-------------
+  Data state: raw, unfiltered
+  Preprocessing applied: False
+  Notes: Data were acquired with no digital filter. No Faraday cage used to mimic real-world usage.
+
+BCI Application
+---------------
+  Applications: vr_ar
+  Environment: laboratory
+  Online feedback: False
+
+Tags
+----
+  Pathology: Healthy
+  Modality: EEG
+  Type: Resting State
+
+Documentation
+-------------
+  Description: This dataset contains electroencephalographic recordings of 12 subjects listening to music with and without a passive head-mounted display
+  DOI: 10.5281/zenodo.2617084
+  Associated paper DOI: 10.2312/vriphys.20181064
+  License: CC-BY-4.0
+  Investigators: G. Cattan, P. L. C. Rodrigues, M. Congedo
+  Senior author: M. Congedo
+  Institution: GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP
+  Address: GIPSA-lab, 11 rue des Mathématiques, Grenoble Campus BP46, F-38402, France
+  Country: FR
+  Repository: Zenodo
+  Data URL: https://doi.org/10.5281/zenodo.2617084
+  Publication year: 2019
+  How to acknowledge: Python code for manipulating the data is available at https://github.com/plcrodrigues/py.PHMDML.EEG.2017-GIPSA
+  Keywords: Electroencephalography (EEG), Virtual Reality (VR), Passive Head-Mounted Display (PHMD), experiment
+
+Abstract
+--------
+We describe the experimental procedures for a dataset that we have made publicly available at https://doi.org/10.5281/zenodo.2617084 in mat (Mathworks, Natick, USA) and csv formats. This dataset contains electroencephalographic recordings of 12 subjects listening to music with and without a passive head-mounted display, that is, a head-mounted display which does not include any electronics at the exception of a smartphone. The electroencephalographic headset consisted of 16 electrodes. Data were recorded during a pilot experiment taking place in the GIPSA-lab, Grenoble, France, in 2017. Python code for manipulating the data is available at https://github.com/plcrodrigues/py.PHMDML.EEG.2017-GIPSA. The ID of this dataset is PHMDML.EEG.2017-GIPSA.
+
+Methodology
+-----------
+Subjects sat in front of screen at ~50 cm distance without instrumental noise-reduction devices. EEG cap and Samsung Gear were placed on subject. Smartphones were continuously swapped between switched-on and switched-off conditions. Each block consisted of 1 minute of EEG recording with eyes opened. The sequence of 10 blocks was randomized prior to experiment using random number generator with no autocorrelation. Triggers marked beginning of each block (1=switched-off, 2=switched-on).
+
+References
+----------
+G. Cattan, P. L. Coelho Rodrigues, and M. Congedo, ‘Passive Head-Mounted Display Music-Listening EEG dataset’, Gipsa-Lab ; IHMTEK, Research Report 2, Mar. 2019. doi: 10.5281/zenodo.2617084.
+Appelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Hochenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896
+
+Pernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103. https://doi.org/10.1038/s41597-019-0104-8
+
+---
+Generated by MOABB 1.5.0 (Mother of All BCI Benchmarks)
+https://github.com/NeuroTechX/moabb
