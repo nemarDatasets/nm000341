@@ -1,0 +1,88 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "G. Cattan": {},
+    "P. L. C. Rodrigues": {},
+    "M. Congedo": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.2617084",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.2312/vriphys.20181064",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000341",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000341",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "Cattan, Rodrigues & Congedo 2019 — Passive Head-Mounted Display Music-Listening EEG dataset (PHMD)",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "242.4 MB (13 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "This dataset comprises electroencephalographic recordings from 12 healthy subjects during music listening with and without a passive head-mounted display (PHMD). The study employed a resting-state paradigm with 16-channel EEG acquisition at 512 Hz, comparing neural activity across alternating blocks of smartphone-on and smartphone-off conditions. The dataset provides raw, unfiltered EEG data in mat and csv formats, facilitating investigation of how passive head-mounted displays influence cortical activity during auditory stimulation.",
+  "methods_description": "EEG data were acquired from 12 subjects using a 16-channel g.USBamp system (sampling rate: 512 Hz) with wet electrodes in a standard 10-20 montage (reference: right earlobe, ground: AFz). Subjects sat approximately 50 cm from a screen and listened to Bach Inventions while maintaining visual fixation on a marker. Each experimental session consisted of 10 blocks (60 seconds each) with randomized alternation between smartphone switched-off and switched-on conditions. Data were recorded without digital filtering or Faraday cage shielding to simulate real-world usage conditions.",
+  "keywords": [
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "virtual reality"
+    },
+    {
+      "term": "head-mounted display"
+    },
+    {
+      "term": "resting state"
+    },
+    {
+      "term": "music listening"
+    },
+    {
+      "term": "brain-computer interfaces"
+    }
+  ],
+  "source_hash": "e2e6c2f985aec431691a17e397e05b2e83ef3d78d95813264f0bcfb482d51ab4"
+}
