@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Cattan, Rodrigues & Congedo 2019 — Passive Head-Mounted Display Music-Listening EEG dataset (PHMD)",
-  "description": "This dataset comprises electroencephalographic recordings from 12 healthy subjects during music listening with and without a passive head-mounted display (PHMD). A passive head-mounted display is a head-mounted device that includes no integrated electronics except for a smartphone. The study employed a resting-state paradigm with 16-channel EEG acquisition at 512 Hz, comparing neural activity across alternating blocks of smartphone-on and smartphone-off conditions during continuous music listening (Bach Invention compositions). The dataset provides raw, unfiltered EEG data in mat and csv formats, enabling investigation of how passive head-mounted displays and auditory stimuli influence brain electrical activity.",
-  "methods_description": "EEG data were acquired from 12 subjects using a 16-channel g.USBamp system (sampling rate: 512 Hz) with wet electrodes in a standard 10-20 montage. Subjects sat approximately 50 cm from a screen and listened to Bach Invention compositions while focusing on a visual fixation marker. Each experimental session consisted of 10 blocks (60 seconds each) with randomized smartphone on/off conditions (5 blocks each). Data were recorded with no digital filtering and without a Faraday cage to simulate real-world conditions. Reference electrode was placed at the right earlobe with ground at AFz.",
+  "description": "This dataset comprises electroencephalographic recordings from 12 healthy subjects during music listening with and without a passive head-mounted display (PHMD). A passive head-mounted display is a head-mounted device that does not include any electronics except for a smartphone. The study employed a 16-channel EEG system sampled at 512 Hz to investigate the effects of smartphone-integrated head-mounted displays on neural activity during auditory stimulation. Data were collected in a laboratory setting with alternating blocks of smartphone on/off conditions during passive listening to Bach compositions.",
+  "methods_description": "EEG data were acquired using a 16-channel g.USBamp system (sampling rate: 512 Hz) with wet electrodes in a standard 10-20 montage. Subjects sat approximately 50 cm from a screen without noise-reduction devices. Each experimental block consisted of 60 seconds of recording with eyes open. Ten blocks were presented in randomized order, alternating between smartphone switched-off and switched-on conditions. Reference electrode was placed at the right earlobe with ground at AFz. Data were recorded without digital filtering using OpenViBE software.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -24,25 +24,10 @@
       "term": "head-mounted display"
     },
     {
-      "term": "resting state"
-    },
-    {
       "term": "music listening"
     },
     {
-      "term": "auditory stimulus"
-    },
-    {
-      "term": "smartphone"
-    },
-    {
-      "term": "Passive Head-Mounted Display"
-    },
-    {
-      "term": "PHMD"
-    },
-    {
-      "term": "Bach"
+      "term": "passive head-mounted display"
     }
   ],
   "related_identifiers": [
@@ -94,5 +79,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "6489450ad0728a04418fe432da7e3d40306fdd58ea3554145f66ad642112a487"
+  "source_hash": "23964e532fed873f29c2a4e7179f8d74f5b1bd2500c51f6427130252a7d2f261"
 }
