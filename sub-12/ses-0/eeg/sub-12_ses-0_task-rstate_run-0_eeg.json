@@ -19,7 +19,9 @@
 	"CapManufacturer": "EasyCap",
 	"CapManufacturersModelName": "EC20",
 	"HardwareFilters": {
-		"HardwareFilter": "no digital filter"
+		"HardwareFilter": {
+			"Description": "no digital filter"
+		}
 	},
 	"TaskDescription": "focus on the marker and to listen to the music that was diffused during the experiment (Bach Invention from one to ten on harpsichord). Trial duration: 60.0s.",
 	"Instructions": "Subjects were asked to focus on the marker and to listen to the music that was diffused during the experiment",
