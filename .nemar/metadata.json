@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Cattan, Rodrigues & Congedo 2019 — Passive Head-Mounted Display Music-Listening EEG dataset (PHMD)",
-  "description": "This dataset comprises electroencephalographic recordings from 12 healthy subjects during music listening with and without a passive head-mounted display (PHMD). The study employed a resting-state paradigm with 16-channel EEG acquisition (512 Hz sampling rate) across 10 blocks per subject, alternating between smartphone switched-off and switched-on conditions. The dataset provides raw, unfiltered EEG data collected in a laboratory setting without electromagnetic shielding to simulate real-world usage conditions. This dataset was derived from the original Zenodo publication (10.5281/zenodo.2617084) and converted to BIDS format using MOABB.",
-  "methods_description": "EEG data were acquired using a 16-channel g.USBamp system with wet electrodes in a standard 10-20 montage (reference: right earlobe, ground: AFz) at 512 Hz sampling rate. Subjects sat approximately 50 cm from a screen without noise-reduction devices. Each of 10 blocks consisted of 1 minute of eyes-open EEG recording while listening to Bach Invention compositions. Smartphone conditions (switched-on/off) were randomized across blocks with triggers marking condition onset. Data were recorded with no digital filtering and no Faraday cage to simulate real-world usage conditions. The dataset was subsequently converted to BIDS format using MOABB (Mother of All BCI Benchmarks) version 1.5.0.",
+  "description": "This dataset comprises electroencephalographic recordings from 12 healthy subjects during music listening with and without a passive head-mounted display (PHMD). The study employed a 16-channel EEG headset to investigate the effects of smartphone-based head-mounted displays on neural activity during auditory stimulation. Data were collected in a resting-state paradigm with alternating blocks of smartphone switched-on and switched-off conditions, providing a resource for brain-computer interface research and virtual reality applications.",
+  "methods_description": "EEG data were acquired using a 16-channel g.USBamp system (sampling rate: 512 Hz) with wet electrodes in a standard 10-20 montage. Subjects sat approximately 50 cm from a screen while wearing an EEG cap and Samsung Gear head-mounted display. The protocol consisted of 10 blocks (60 seconds each) with alternating smartphone on/off conditions in randomized order. Recordings were performed with eyes open, no digital filtering applied, and no Faraday cage to simulate real-world conditions.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -21,13 +21,10 @@
       "term": "EEG"
     },
     {
-      "term": "Head-Mounted Display"
+      "term": "Virtual Reality"
     },
     {
-      "term": "Passive Head-Mounted Display"
-    },
-    {
-      "term": "Smartphone"
+      "term": "Head-mounted display"
     },
     {
       "term": "Resting state"
@@ -36,7 +33,7 @@
       "term": "Music listening"
     },
     {
-      "term": "Auditory stimulus"
+      "term": "Brain-computer interfaces"
     }
   ],
   "related_identifiers": [
@@ -88,5 +85,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "a78661fbc85ff9dc15ab96c5a82a5f647b7070d3dfb6c24eb47457c4c55fe0c3"
+  "source_hash": "b770fc04aee3d752881d6bc8452c6a711c28d0d5c5ae2e89b289945cc66c1ca0"
 }
