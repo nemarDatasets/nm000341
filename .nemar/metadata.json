@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Cattan, Rodrigues & Congedo 2019 — Passive Head-Mounted Display Music-Listening EEG dataset (PHMD)",
-  "description": "This dataset comprises electroencephalographic recordings from 12 healthy subjects during music listening with and without a passive head-mounted display (PHMD). The study employed a 16-channel EEG headset to investigate the effects of smartphone-based head-mounted displays on neural activity during auditory stimulation. Data were collected in a resting-state paradigm with alternating blocks of smartphone switched-on and switched-off conditions, providing a resource for brain-computer interface research and virtual reality applications.",
-  "methods_description": "EEG data were acquired using a 16-channel g.USBamp system (sampling rate: 512 Hz) with wet electrodes in a standard 10-20 montage. Subjects sat approximately 50 cm from a screen while wearing an EEG cap and Samsung Gear head-mounted display. The protocol consisted of 10 blocks (60 seconds each) with alternating smartphone on/off conditions in randomized order. Recordings were performed with eyes open, no digital filtering applied, and no Faraday cage to simulate real-world conditions.",
+  "description": "This dataset contains 16-channel electroencephalographic recordings from 12 healthy participants who listened to music (Bach inventions on harpsichord) while fixating a visual marker, with and without a passive head-mounted display (a headset containing only a smartphone). Each participant completed 10 one-minute eyes-open blocks in randomized order, 5 with the smartphone switched off and 5 with it switched on. It was collected in a pilot experiment at GIPSA-lab, Grenoble, in 2017 to assess the impact of passive VR headsets on EEG signal quality.",
+  "methods_description": "EEG was recorded with a g.USBamp amplifier and OpenViBE software at 512 Hz from 16 wet electrodes (EasyCap, 10-20 system), referenced to the right earlobe with ground at AFz and no digital filtering. Participants sat about 50 cm from a screen wearing the EEG cap and a Samsung Gear headset. Each of 10 randomized blocks lasted 1 minute with eyes open, and triggers marked block onset (1 = smartphone off, 2 = smartphone on).",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -18,22 +18,19 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "EEG"
-    },
-    {
       "term": "Virtual Reality"
     },
     {
-      "term": "Head-mounted display"
+      "term": "passive head-mounted display"
     },
     {
-      "term": "Resting state"
+      "term": "music listening"
     },
     {
-      "term": "Music listening"
+      "term": "resting state"
     },
     {
-      "term": "Brain-computer interfaces"
+      "term": "EEG signal quality"
     }
   ],
   "related_identifiers": [
@@ -45,7 +42,7 @@
     {
       "identifier": "10.2312/vriphys.20181064",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/nm000341",
@@ -74,7 +71,7 @@
     "eeg"
   ],
   "sizes": [
-    "541.2 MB (25 files)"
+    "516 MB (25 files)"
   ],
   "formats": [
     ".bdf",
